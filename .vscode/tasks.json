@@ -1,0 +1,40 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Start Client and Server",
+        "dependsOn": ["Start Client", "Start Server"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      },
+      {
+        "label": "Start Client",
+        "type": "shell",
+        "command": "npm install && npm run start",
+        "group": "build",
+        "problemMatcher": [],
+        "options": {
+          "cwd": "${workspaceFolder}/client"
+        },
+        "presentation": {
+          "panel": "new"
+        }
+      },
+      {
+        "label": "Start Server",
+        "type": "shell",
+        "command": "npm install && npm run dev",
+        "group": "build",
+        "problemMatcher": [],
+        "options": {
+          "cwd": "${workspaceFolder}/server"
+        },
+        "presentation": {
+          "panel": "new"
+        }
+      }
+    ]
+  }
+  

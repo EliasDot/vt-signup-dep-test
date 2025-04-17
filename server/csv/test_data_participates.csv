@@ -1,0 +1,11 @@
+a_name,e_name,e_date,participated
+user1,event1,2025-04-16 00:00:00,False
+user2,event2,2025-04-17 00:00:00,True
+user3,event3,2025-04-18 00:00:00,False
+user4,event4,2025-04-19 00:00:00,True
+user5,event5,2025-04-20 00:00:00,False
+user6,event6,2025-04-21 00:00:00,True
+user7,event7,2025-04-22 00:00:00,False
+user8,event8,2025-04-23 00:00:00,True
+user9,event9,2025-04-24 00:00:00,False
+user10,event10,2025-04-25 00:00:00,True
